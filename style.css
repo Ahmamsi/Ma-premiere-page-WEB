@@ -1,0 +1,116 @@
+
+
+body {
+    
+    font-family: 'Chokokutai' , sans-serif ;
+    margin:0;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(249, 211, 95, 0.554);
+    line-height: 2;
+    
+    
+}
+     
+header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    color: white;
+    background-color: black;
+    text-align: center;
+    height: 20vh;
+    padding: 15px;
+    position: fixed;
+    width: 100vw;
+    z-index: 10;
+}
+main{
+    position: relative;
+    top:20vh;
+}
+article{
+    width: 60%;
+    background-color: rgba(28, 25, 25, 0.393);
+    padding: 30px;
+    margin: 30px;
+    border-radius: 40px;
+    box-shadow: white;
+}
+
+h1 {
+        text-align: center;
+        color: whitesmoke;
+        
+}
+
+
+main {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+#Image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    aspect-ratio: 1208/867;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-y: 15vh;
+}
+     
+#Image>h2 {
+    font-size: 5rem;
+    padding-right: 5vw;
+    color: blanchedalmond;
+
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    height: 35vw ;
+    width: 36vh;
+    background-color: rgb(10, 13, 13);
+    position:fixed;
+    top:21vh;
+    margin-left: 2%;
+    z-index: 5;
+    
+    
+}
+
+.bouton{
+    display: block;
+    text-decoration: none;
+    background-color: rgb(233, 200, 151);
+    color: rgb(15, 14, 13);
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 0 2vh 2vh 0;
+    height: 5vh;
+    transition: background-color 1000ms, color 100ms, border 2000ms, border-radius 1s, width 1s;
+    width: 30vh;
+
+}
+
+.bouton:hover {
+    width: 100%;
+    text-decoration: underline;
+    background-color: aliceblue;
+    border-radius: 0 0 0 0;
+}
+    
+    
+
+
+
+
